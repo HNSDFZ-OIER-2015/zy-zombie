@@ -14,35 +14,4 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="zy_render.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Application.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Application-Event.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Application-Keycode.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="zy_zombie.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="zy_type.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Application.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="zy_zombie.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="zy_render.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
 </Project>

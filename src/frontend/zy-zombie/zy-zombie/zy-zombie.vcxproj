@@ -18,19 +18,6 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Application-Event.h" />
-    <ClInclude Include="Application-Keycode.h" />
-    <ClInclude Include="Application.h" />
-    <ClInclude Include="zy_render.h" />
-    <ClInclude Include="zy_type.h" />
-    <ClInclude Include="zy_zombie.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Application.cpp" />
-    <ClCompile Include="zy_render.cpp" />
-    <ClCompile Include="zy_zombie.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{5D1C1E4B-9E0D-40A5-9259-9919921FA582}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -84,8 +71,6 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\zy-zombie\src\frontend\zy-zombie\zy-zombie\SDL2_net-2.0.1;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\zy-zombie\src\frontend\zy-zombie\zy-zombie\SDL2_net-2.0.1;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -160,6 +145,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
