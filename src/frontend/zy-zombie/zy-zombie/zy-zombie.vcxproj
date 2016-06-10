@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8323D10A-2BD0-4408-ACCB-9EEA978B058D}</ProjectGuid>
+    <ProjectGuid>{5D1C1E4B-9E0D-40A5-9259-9919921FA582}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>zyzombie</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
@@ -146,7 +146,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="SimpleRender.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

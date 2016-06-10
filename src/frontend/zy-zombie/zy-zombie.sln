@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zy-zombie", "zy-zombie\zy-zombie.vcxproj", "{8323D10A-2BD0-4408-ACCB-9EEA978B058D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zy-zombie", "zy-zombie\zy-zombie.vcxproj", "{5D1C1E4B-9E0D-40A5-9259-9919921FA582}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8323D10A-2BD0-4408-ACCB-9EEA978B058D}.Debug|x64.ActiveCfg = Debug|x64
-		{8323D10A-2BD0-4408-ACCB-9EEA978B058D}.Debug|x64.Build.0 = Debug|x64
-		{8323D10A-2BD0-4408-ACCB-9EEA978B058D}.Debug|x86.ActiveCfg = Debug|Win32
-		{8323D10A-2BD0-4408-ACCB-9EEA978B058D}.Debug|x86.Build.0 = Debug|Win32
-		{8323D10A-2BD0-4408-ACCB-9EEA978B058D}.Release|x64.ActiveCfg = Release|x64
-		{8323D10A-2BD0-4408-ACCB-9EEA978B058D}.Release|x64.Build.0 = Release|x64
-		{8323D10A-2BD0-4408-ACCB-9EEA978B058D}.Release|x86.ActiveCfg = Release|Win32
-		{8323D10A-2BD0-4408-ACCB-9EEA978B058D}.Release|x86.Build.0 = Release|Win32
+		{5D1C1E4B-9E0D-40A5-9259-9919921FA582}.Debug|x64.ActiveCfg = Debug|x64
+		{5D1C1E4B-9E0D-40A5-9259-9919921FA582}.Debug|x64.Build.0 = Debug|x64
+		{5D1C1E4B-9E0D-40A5-9259-9919921FA582}.Debug|x86.ActiveCfg = Debug|Win32
+		{5D1C1E4B-9E0D-40A5-9259-9919921FA582}.Debug|x86.Build.0 = Debug|Win32
+		{5D1C1E4B-9E0D-40A5-9259-9919921FA582}.Release|x64.ActiveCfg = Release|x64
+		{5D1C1E4B-9E0D-40A5-9259-9919921FA582}.Release|x64.Build.0 = Release|x64
+		{5D1C1E4B-9E0D-40A5-9259-9919921FA582}.Release|x86.ActiveCfg = Release|Win32
+		{5D1C1E4B-9E0D-40A5-9259-9919921FA582}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

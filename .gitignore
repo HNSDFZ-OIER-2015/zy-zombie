@@ -92,3 +92,4 @@ target/
 .ipynb_checkpoints
 /zy-zombie/zy-zombie.VC.db
 /zy-zombie/zy-zombie.VC.VC.opendb
+/src/frontend/zy-zombie/zy-zombie.VC.db
