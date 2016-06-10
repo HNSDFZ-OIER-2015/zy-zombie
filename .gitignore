@@ -36,6 +36,7 @@ Debug/*
 *.opendb
 *.log
 *.tlog
+.vs/*
 
 
 # Byte-compiled / optimized / DLL files
