@@ -84,8 +84,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\zy-zombie\src\frontend\zy-zombie\zy-zombie\SDL2_net-2.0.1;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\zy-zombie\src\frontend\zy-zombie\zy-zombie\SDL2_net-2.0.1;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\98055\Desktop\SFML-2.1\include;D:\zy-zombie\src\frontend\zy-zombie\zy-zombie\SDL2_net-2.0.1;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\98055\Desktop\SFML-2.1\lib;D:\zy-zombie\src\frontend\zy-zombie\zy-zombie\SDL2_net-2.0.1;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>

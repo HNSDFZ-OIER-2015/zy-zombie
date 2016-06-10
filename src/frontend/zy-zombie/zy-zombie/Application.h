@@ -99,6 +99,7 @@ namespace App {
 
 		//get hwnd
 		auto GetHwnd()->HWND;
+		//you don't need finsih the funciton
 		//get height
 		auto GetHeight()->int;
 		//get width

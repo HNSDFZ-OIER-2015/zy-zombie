@@ -8,7 +8,7 @@
 #include"zy_type.h"
 using namespace App;
 namespace zy {
-
+#define Windows 
 
 	class Image {
 	private:
@@ -19,6 +19,9 @@ namespace zy {
 		~Image();
 		auto GetWidth()->float; //get Width
 		auto GetHeight()->float; //get height
+#ifdef Windows
+		operator ID2D1Bitmap*();
+#endif // Windows
 	};
 
 	class Render {
@@ -34,8 +37,12 @@ namespace zy {
 		float				g_center_y;
 		float               g_scale_x;
 		float               g_scale_y;
+		float               g_scale_center_x;
+		float               g_scale_center_y;
 		Matrix3x2F          g_scale;
 		Matrix3x2F          g_rotate;
+
+		void UpDataMatrix();
 	public:
 		void Bind(Application* App);
 		void BeginDraw(float4 color = float4(1.f, 1.f, 1.f, 1.f));
@@ -45,10 +52,11 @@ namespace zy {
 		//basic message
 		void SetDrawAngle(float Angle);
 		void SetDrawScale(float x, float y); //do not support drawimage
+		void SetDrawScaleCenter(float x, float y); //do not support drawimage
 		void SetDrawRotateCenter(float x, float y);
 
 		//Draw
-		void DrawImage(Image Image, RECT ImageRect);//
+		void DrawImage(Image DrawImage, RECT ImageRect);//
 
 		//Resource
 		void CreateImage(Image* Image); //create iamge
