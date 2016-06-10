@@ -37,6 +37,7 @@ Debug/*
 *.log
 *.tlog
 .vs/*
+*.idb
 
 
 # Byte-compiled / optimized / DLL files
