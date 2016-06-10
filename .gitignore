@@ -28,6 +28,15 @@
 *.out
 *.app
 
+Debug/*
+*.pdb
+*.ilk
+*.db
+*.opendb
+*.log
+*.tlog
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
