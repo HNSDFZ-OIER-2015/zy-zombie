@@ -90,3 +90,5 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+/zy-zombie/zy-zombie.VC.db
+/zy-zombie/zy-zombie.VC.VC.opendb
