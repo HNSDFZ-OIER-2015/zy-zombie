@@ -11,17 +11,12 @@ int main() {
 
     printf("%d\n", socket.getRemotePort());
 
-    sf::Packet pack;
-    pack << "Hello, world!";
-    socket.send(pack);
+    char buffer[100] = "Hello, world!";
+    socket.send(buffer, sizeof(buffer));
 
-    socket.receive(pack);
-    std::string data;
-    if (pack >> data) {
-        printf("%s\n", data.c_str());
-    } else {
-        puts("(error) No data");
-    }
+    size_t received;
+    socket.receive(buffer, sizeof(buffer), received);
+    printf("%s\n", buffer);
 
     socket.disconnect();
 

@@ -16,17 +16,12 @@ int main() {
     if (listener.accept(conn) == sf::Socket::Done) {
         printf("%d\n", conn.getRemotePort());
 
-        sf::Packet pack;
-        pack << "Hello, world!";
-        conn.send(pack);
+        char buffer[100] = "Hello, world!";
+        conn.send(buffer, sizeof(buffer));
 
-        conn.receive(pack);
-        std::string data;
-        if (pack >> data) {
-            printf("%s\n", data.c_str());
-        } else {
-            puts("(error) No data");
-        }
+        size_t received;
+        conn.receive(buffer, sizeof(buffer), received);
+        printf("%s\n", buffer);
     }
     puts("233");
 
