@@ -17,6 +17,12 @@ typedef wchar_t CharType;
 typedef char16_t CharType;
 #endif  // IFDEF __LINUX__
 
+/**
+ * Convert UTF-8 string stored in a char array to wide char array
+ * @param  from      UTF-8 string
+ * @param  from_size the length of the string
+ * @return           Converted string
+ */
 template <typename TChar>
 inline auto convert(const char* from, const size_t from_size)
     -> std::unique_ptr<TChar>;
